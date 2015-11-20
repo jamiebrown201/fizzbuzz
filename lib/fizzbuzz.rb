@@ -1,4 +1,11 @@
 def fizzbuzz num
- #num % 3 == 0  
- "Fizz"
+  if num % 3 == 0 && num % 5 == 0
+      return "Fizzbuzz"
+  elsif num % 5 == 0 
+      return "Buzz"
+  elsif  num % 3 == 0
+      return "Fizz"
+  else
+      return num
+  end
 end
